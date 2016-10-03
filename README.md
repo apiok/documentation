@@ -18,6 +18,11 @@ $additional
 ```
 В каркасе документации метода уже есть список параметров и его название, остается только сделать описание. Для форматирования текста используется [Markdown](https://ru.wikipedia.org/wiki/Markdown).
 
+Для ссылки из одного метода на другой можно воспользоваться тегом *replace_method*. Например:
+```
+{% replace_method users.getCurrentUser %}
+```
+
 После редактирования документации на метод, создается pull request, и кто-нибудь из команды API Одноклассников его просматривает и сливает с основной веткой. Внутренняя (репозиторий в Одноклассниках) версия документации и внешняя (репозиторий на GitHub) синхронизируются периодически для поддержания актуальности.
 
 
@@ -39,7 +44,12 @@ List of requested fields
 $additional
 additional information
 ```
-The framework of the method documentation already contains a list of parameters and its name, we can only make the description. To format the text, use the [Markdown](https://ru.wikipedia.org/wiki/Markdown).
+The framework of the method documentation already contains a list of parameters and its name, we can only make the description. To format the text, use the [Markdown](https://en.wikipedia.org/wiki/Markdown).
+
+To link from one method to another, you can use the tag *replace_method*. For example:
+```
+{% replace_method users.getCurrentUser %}
+```
 
 After editing the documentation creates pull request and someone from Odnoklassniki API team looks it and merges with the main branch. Internal (repository in Odnoklassniki) version of the documentation and external (on the GitHub repository) synchronized periodically to maintain relevance.
 0Looking
