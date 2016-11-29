@@ -39,5 +39,8 @@ $params#game
 $params#donate
 Трансляция принимает донаты
 
+$params#aid
+
+
 $additional
 В случае успеха возвращает пустой ответ.
