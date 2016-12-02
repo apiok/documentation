@@ -24,7 +24,7 @@ $params#lat
 $params#lng
 
 
-$params#aid
+$params#cid
 
 
 $additional

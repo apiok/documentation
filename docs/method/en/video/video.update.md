@@ -36,7 +36,7 @@ $params#game
 $params#donate
 
 
-$params#aid
+$params#cid
 
 
 $additional

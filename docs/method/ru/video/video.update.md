@@ -39,7 +39,7 @@ $params#game
 $params#donate
 Трансляция принимает донаты
 
-$params#aid
+$params#cid
 
 
 $additional
