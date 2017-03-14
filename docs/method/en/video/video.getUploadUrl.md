@@ -27,4 +27,7 @@ $params#lng
 $params#cid
 
 
+$params#post_form
+
+
 $additional
