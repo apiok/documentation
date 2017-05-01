@@ -29,7 +29,7 @@ $params#lng
 Longitude
 
 $params#cid
-Id of video-channel
+ID of video-channel
 
 $params#post_form
 Upload during post creation (No "Video uploaded" feed created in this case)
