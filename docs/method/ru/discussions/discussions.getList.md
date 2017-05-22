@@ -27,4 +27,7 @@ $params#fieldset
 $params#locale
 Язык
 
+$params#features
+
+
 $additional
