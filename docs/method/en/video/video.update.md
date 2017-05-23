@@ -39,4 +39,13 @@ $params#donate
 $params#cid
 
 
+$params#rec
+
+
+$params#rec_start
+
+
+$params#rec_stop
+
+
 $additional

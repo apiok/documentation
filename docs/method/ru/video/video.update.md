@@ -42,5 +42,14 @@ $params#donate
 $params#cid
 ID видео-канала
 
+$params#rec
+
+
+$params#rec_start
+
+
+$params#rec_stop
+
+
 $additional
 В случае успеха возвращает пустой ответ.
