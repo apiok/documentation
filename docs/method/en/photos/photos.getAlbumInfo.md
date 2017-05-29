@@ -9,6 +9,9 @@ $params#uid
 $params#aid
 
 
+$params#fid
+
+
 $params#gid
 
 
