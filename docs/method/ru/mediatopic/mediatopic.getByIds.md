@@ -12,4 +12,7 @@ $params#media_limit
 $params#fields
 Список запрашиваемых полей
 
+$params#features
+
+
 $additional

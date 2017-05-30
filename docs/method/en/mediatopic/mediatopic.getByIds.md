@@ -12,4 +12,7 @@ $params#media_limit
 $params#fields
 
 
+$params#features
+
+
 $additional
