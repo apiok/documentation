@@ -1,7 +1,7 @@
 apps.setVipOfferStatus
 
 $description
-Changes VIP offer state specifying if the user got the offer's in-game bonus 
+Changes VIP offer state specifying if the user got the offer's in-game bonus
 
 $params#slot
 Slot number (0 .. 4)
