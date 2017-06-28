@@ -13,4 +13,4 @@ $params#timeout
 Invite timeout
 
 $additional
-The application should has CHAT platform and platform param should be set to CHAT.
+The application should has CHAT platform and request must have GET-param platform=CHAT.
