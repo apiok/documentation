@@ -17,5 +17,8 @@ Must always be set to start in future
 $params#end_time
 Action end time in yyyy.MM.dd HH:mm format
 
+$params#image304x128
+
+
 $additional
 Promo period can not be longer than 3 days.

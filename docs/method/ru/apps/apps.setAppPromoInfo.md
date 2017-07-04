@@ -17,5 +17,8 @@ $params#start_time
 $params#end_time
 Время окончания акции в формате yyyy.MM.dd HH:mm
 
+$params#image304x128
+
+
 $additional
 Длительность акции не должна превышать 3 суток.
