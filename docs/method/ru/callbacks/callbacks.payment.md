@@ -30,6 +30,9 @@ $params#payment_system
 $params#extra_attributes
 JSON-кодированные пары ключей/значений, содержащие дополнительные параметры транзакции, которые передает приложение в методе [FAPI.UI.showPayment](/dev/sdk/js/ui.showPayment).
 
+$params#trial_days
+
+
 $additional
 См. также [пример проведения платежа](/dev/examples/payment) в HTML-приложении с серверной частью на PHP.
 

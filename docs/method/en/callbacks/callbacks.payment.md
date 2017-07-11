@@ -30,4 +30,7 @@ $params#payment_system
 $params#extra_attributes
 
 
+$params#trial_days
+
+
 $additional
