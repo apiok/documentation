@@ -18,7 +18,8 @@ $params#end_time
 Action end time in yyyy.MM.dd HH:mm format
 
 $params#image304x128
-
+Promo action image URL  
+Required image size: 304x128
 
 $additional
 Promo period can not be longer than 3 days.

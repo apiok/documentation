@@ -100,7 +100,7 @@ Text message example:
 
 {% highlight json %}
 {
-  "recipient":{"user_id":"user:123456789012"},          /* Chat ID in a chat:id format */
+  "recipient":{"user_id":"chat:C3ecb9d02a600"},          /* Chat ID in a chat:id format */
   "message":{                                           /* Message content */
     "text":"Hello"                                      /* Message text */
   }
@@ -140,9 +140,9 @@ Example request:
 }
 {% endhighlight %}
 
-**Mass user messages**
+**Direct user messages**
 
-It is possible to send the same message from group to multiple users at a time.
+It is possible to send a message from group to a single or multiple users at once.
 
 User must allow to receive group messages before it can be sent to him.
 
