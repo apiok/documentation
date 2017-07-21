@@ -13,6 +13,6 @@ $params#fields
 Список запрашиваемых полей
 
 $params#features
-
+Фичи, которые поддерживает клиент
 
 $additional

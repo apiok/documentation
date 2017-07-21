@@ -28,6 +28,6 @@ $params#locale
 Язык
 
 $params#features
-
+Фичи, которые поддерживает клиент
 
 $additional
