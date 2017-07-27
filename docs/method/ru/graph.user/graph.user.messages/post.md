@@ -100,7 +100,7 @@ $additional
 
 {% highlight json %}
 {
-  "recipient":{"user_id":"chat:C3ecb9d02a600"},          /* ID чата в формате chat:id */
+  "recipient":{"chat_id":"chat:C3ecb9d02a600"},         /* ID чата в формате chat:id */
   "message":{                                           /* Содержание сообщения */
     "text":"Привет"                                     /* Текст сообщения */
   }

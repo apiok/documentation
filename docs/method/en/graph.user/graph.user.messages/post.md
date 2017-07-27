@@ -100,7 +100,7 @@ Text message example:
 
 {% highlight json %}
 {
-  "recipient":{"user_id":"chat:C3ecb9d02a600"},          /* Chat ID in a chat:id format */
+  "recipient":{"chat_id":"chat:C3ecb9d02a600"},         /* Chat ID in a chat:id format */
   "message":{                                           /* Message content */
     "text":"Hello"                                      /* Message text */
   }
