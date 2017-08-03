@@ -163,13 +163,19 @@ Following message syntax is used for this purpose:
 
 Each user from the list will get a message in his own group-to-user chat.
 
-API will respond with a list of boolean results indicating if a message was sent successfully or an error has occurred during this process.
+API will respond with two corresponding list of values:
+* boolean type values list that indicate if message was or was not successfully sent;
+* list of user-to-group chat ids in which messages where sent.
 
 {% highlight json %}
 {
-  "success": [                                          
-    false,
+  "success": [
+    true,
     false
+  ],
+  "chat_ids": [
+    "chat:C401b13206b00",
+    null
   ]
 }
 {% endhighlight %}
