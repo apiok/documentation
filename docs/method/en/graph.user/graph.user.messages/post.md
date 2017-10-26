@@ -7,6 +7,8 @@ $payload
 
 
 $additional
+{% format_code Content-Type: application/json;charset=utf-8 header should be specified for all Graph API POST requests %}
+
 This method allows you to do following actions:
 
 * create new chat messages;
@@ -177,5 +179,17 @@ API will respond with two corresponding list of values:
     "chat:C401b13206b00",
     null
   ]
+}
+{% endhighlight %}
+
+To send a message directly to one user you can use a simplified message syntax:
+{% highlight json %}
+{
+    "recipient":{
+        "user_id": "user:123456789012"              /* Recipient's id in user:id or id format*/
+    },
+    "message":{                                     /* Message content */
+        "text":"Hello"                              /* Message text */
+    }
 }
 {% endhighlight %}

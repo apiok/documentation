@@ -22,4 +22,8 @@ Promo action image URL
 Required image size: 304x128
 
 $additional
+{% format_code **Attention!** This method has a limited calls count of 5 per 30 days. Use them wisely %}
+
 Promo period can not be longer than 3 days.
+
+If the limit is exceeded during test period, it can be reset. You can contact us at api-support@ok.ru

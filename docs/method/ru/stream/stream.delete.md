@@ -14,4 +14,7 @@ $params#banner_id
 $params#banner_opt
 Json map дополнительных параметров, пробрасываемых в неизменном виде к РБ (см. [Протокол взаимодействия S2S с мобильными ОК](https://confluence.mail.ru/pages/viewpage.action?pageId=43977070)). Игнорируется, если не указан banner_id.
 
+$params#delete_ref_id
+
+
 $additional

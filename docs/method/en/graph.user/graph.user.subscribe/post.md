@@ -11,6 +11,8 @@ $payload
 {% endhighlight %}
 
 $additional
+{% format_code Content-Type: application/json;charset=utf-8 header should be specified for all Graph API POST requests %}
+
 Messages about all new chat events will be sent to every Webhook has registered by this method.
 
 Messages about this events are sent to Webhook::

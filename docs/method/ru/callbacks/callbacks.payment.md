@@ -33,6 +33,9 @@ JSON-кодированные пары ключей/значений, содер
 $params#trial_days
 
 
+$params#card_promo
+
+
 $additional
 См. также [пример проведения платежа](/dev/examples/payment) в HTML-приложении с серверной частью на PHP.
 

@@ -11,6 +11,8 @@ $payload
 {% endhighlight %}
 
 $additional
+{% format_code **Внимание!** POST-запросы должны выполняться с заголовком Content-Type: application/json;charset=utf-8 %}
+
 **Пример запроса**
 
 {% format_code https://api.ok.ru/graph/me/unsubscribe?access_token=tkn18YdUJZe:CQABPOJKAKEKEKEKE %}

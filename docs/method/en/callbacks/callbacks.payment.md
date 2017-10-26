@@ -33,4 +33,7 @@ $params#extra_attributes
 $params#trial_days
 
 
+$params#card_promo
+
+
 $additional
