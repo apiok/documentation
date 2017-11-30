@@ -10,7 +10,7 @@ $params#transaction_id
 Уникальный идентификатор транзакции
 
 $params#transaction_time
-Время транзакции
+Время транзакции в формате yyyy-mm-dd HH:MM:SS
 
 $params#product_code
 Код продукта
@@ -31,7 +31,7 @@ $params#extra_attributes
 JSON-кодированные пары ключей/значений, содержащие дополнительные параметры транзакции, которые передает приложение в методе [FAPI.UI.showPayment](/dev/sdk/js/ui.showPayment).
 
 $params#trial_days
-
+Пробный период в днях купленной игровой подписки
 
 $params#card_promo
 

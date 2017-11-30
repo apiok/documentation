@@ -13,14 +13,23 @@ $payload
 $additional
 {% format_code Content-Type: application/json;charset=utf-8 header should be specified for all Graph API POST requests %}
 
-Messages about all new chat events will be sent to every Webhook has registered by this method.
+**Processing API requests**
 
-Messages about this events are sent to Webhook::
-* chat state cupdate (new icon or title);
-* new chat message (except messages by Webhook / access_token owner);
-* new chat participant action (user was added or removed from chat, user has left chat)
+Messages about all new chat events will be sent to every Webhook registered by this method.
+
+Messages about this events are sent to Webhook:
+
+* chat state updates (new icon or title);
+* new chat messages (except messages by Webhook / access_token owner);
+* new chat participant's actions (user was added or removed from chat, user has left chat)
 
 If a message contains image, video or any other attachment, Webhook message will have it too.
+
+Requests can come from following IP-addresses:
+
+* 217.20.145.192/28
+* 217.20.151.160/28
+* 217.20.153.48/28
 
 {% format_code https://api.ok.ru/graph/me/subscribe?access_token=tkn18YdUJZe:CQABPOJKAKEKEKEKE %}
 
