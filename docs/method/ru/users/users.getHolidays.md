@@ -1,7 +1,7 @@
 users.getHolidays
 
 $description
-Метод позволяет получать список праздников пользователя. См. также {% replace_method users.getFriendsHolidays %} и {% replace_method users.getPortalHolidays %}.
+Метод позволяет получать список праздников пользователя.
 
 $params#uid
 Идентификатор пользователя, чьи праздники требуется получить. 
